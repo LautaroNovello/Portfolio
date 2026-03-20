@@ -87,7 +87,7 @@ export const Hero = () => {
   return (
     <section id="inicio" className="hero-section">
 
-      <motion.div 
+      <motion.div
         className="hero-layout"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

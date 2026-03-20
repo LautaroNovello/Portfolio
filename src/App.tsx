@@ -4,6 +4,7 @@ import { Hero } from "./sections/Hero";
 import { ProjectsSection } from "./sections/Projects";
 import { TechnologiesSection } from "./sections/Technologies";
 import { ContactSection } from "./sections/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isDark, setIsDark] = useState(() => {
@@ -36,6 +37,7 @@ function App() {
         <TechnologiesSection />
         <ContactSection />
       </main>
+      <Analytics />
     </div>
   );
 }
