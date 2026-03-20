@@ -225,11 +225,23 @@ body {
   background: linear-gradient(180deg, transparent 55%, var(--accent-soft) 55%);
   padding: 0 4px;
   border-radius: 4px;
-  transition: background var(--transition);
+  transition: background 0.3s var(--ease);
+  text-decoration: none; 
 }
 
-.hero-highlight:hover {
+.hero-link-highlight:hover {
+  text-decoration: underline;
   background: linear-gradient(180deg, transparent 35%, var(--accent-soft) 35%);
+}
+
+.hero-link-inline {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.hero-link-inline:hover {
+  text-decoration: underline;
 }
 
 .hero-description-container {

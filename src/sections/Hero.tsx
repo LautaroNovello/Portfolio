@@ -63,7 +63,7 @@ function ProfileFlipCard() {
                   <GraduationCap size={14} strokeWidth={1.5} />
                   <span>Formación</span>
                 </div>
-                <p>4to año de Ingeniería en Sistemas de Información (UTN)</p>
+                <p>Actualmente estoy cursando 4to Año en la UTN FRVM</p>
               </div>
 
               <div className="narrative-block">
@@ -105,7 +105,7 @@ export const Hero = () => {
 
           <div className="hero-description-container">
             <p className="hero-description">
-              Soy estudiante de <span className="hero-highlight">Ingeniería en Sistemas</span> y un apasionado por materializar ideas en código. Creo firmemente que la mejor forma de aprender es haciendo; por eso, mi enfoque está en <span className="hero-highlight">construir herramientas</span> que no solo funcionen, sino que sean <span className="hero-highlight">útiles para las personas</span> en su día a día.
+              Soy estudiante de <a href="https://www.frvm.utn.edu.ar/oferta-academica/sistemas" target="_blank" rel="noopener noreferrer" className="hero-highlight hero-link-highlight">Ingeniería en Sistemas</a> y un apasionado por materializar ideas en código. Creo firmemente que la mejor forma de aprender es haciendo; por eso, mi enfoque está en <span className="hero-highlight">construir herramientas</span> que no solo funcionen, sino que sean <span className="hero-highlight">útiles para las personas</span> en su día a día.
             </p>
           </div>
         </div>
