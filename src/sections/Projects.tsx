@@ -36,8 +36,8 @@ const projects: Project[] = [
     logoClass: "almaroja-logo-img",
     ActionIcon: Globe,
     tone: "red",
-    shortDescription: "Plataforma integral para gestión deportiva: torneos, fixtures y estadísticas en tiempo real.",
-    stack: ["React", "NestJS", "PostgreSQL", "Docker", "AWS"],
+    shortDescription: "Plataforma en producción para gestión de torneos de fútsal. Maneja fixtures, tabla de posiciones, sanciones, goleadores y perfiles de jugadores con estadísticas.",
+    stack: ["React", "NestJS", "PostgreSQL", "TypeORM", "Docker", "AWS"],
     demoUrl: "https://almaroja.com.ar",
   },
   {
@@ -58,7 +58,7 @@ const projects: Project[] = [
         />
       </svg>
     ),
-    shortDescription: "Sistema de gestión administrativa para PyMEs: facturación, inventario y reportes operativos.",
+    shortDescription: "Sistema de gestión desarrollado en equipo de 4 para el título de Analista en Sistemas. Incluye módulos de ventas, compras, inventario y gestion de roles. Backend NestJS + PostgreSQL, desplegado con Docker.",
     stack: ["React", "NestJS", "PostgreSQL", "Docker", "Zoho Mail"],
     demoUrl: "mailto:Lauty.novello@gmail.com?subject=Reunión Matepyme&body=Hola Lautaro, estuve viendo tu porfolio y me parecio muy interesante. Podriamos agendar una reunion para que me comentes mas sobre el proyecto de matepymes",
   },
@@ -83,7 +83,7 @@ const projects: Project[] = [
       </svg>
     ),
     tone: "cyan",
-    shortDescription: "Plataforma avanzada de monitoreo ejecutivo para el seguimiento de métricas y rendimiento de proyectos en tiempo real.",
+    shortDescription: "Monitor agentless para contenedores Docker. Se conecta vía SSH a servidores remotos, extrae métricas con docker stats, las persiste en InfluxDB y dispara alertas por WhatsApp via Twilio cuando un contenedor se satura.",
     stack: ["TypeScript", "InfluxDB", "Node.js", "Docker", "Twilio"],
     demoUrl: "https://github.com/LautaroNovello/Monitor-De-Proyecto",
   },
@@ -94,7 +94,7 @@ const projects: Project[] = [
     imageIcon: "/infinity-logo.png",
     tone: "blue",
     ActionIcon: Github,
-    shortDescription: "Propuesta de mejora estratégica para el Customer Journey y gestión de flujos del parque acuático Infinity Open.",
+    shortDescription: "Trabajo académico de reingeniería de procesos para un parque acuático real. Front-end con React 19 + TypeScript que modela aforo en tiempo real, validación QR y mapa interactivo.",
     stack: ["React", "TypeScript", "Vite", "Tailwind", "Lucide"],
     demoUrl: "https://github.com/LautaroNovello/Infinity-Open.git",
   },

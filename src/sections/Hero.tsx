@@ -3,8 +3,10 @@ import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import {
   GraduationCap,
-  Trophy,
-  Calendar,
+  Clock,
+  Code,
+  Download,
+  ArrowRight,
 } from "lucide-react";
 
 /* ─── Flip Card ───────────────────────────────── */
@@ -51,27 +53,27 @@ function ProfileFlipCard() {
           <div className="flip-face flip-back">
             <div className="flip-back-content">
               <div className="narrative-block">
-                <div className="narrative-header">
-                  <Calendar size={14} strokeWidth={1.5} />
-                  <span>Nacimiento</span>
+                <div className="narrative-header" style={{ marginBottom: "2px" }}>
+                  <Clock size={13} strokeWidth={1.5} />
+                  <span style={{ fontSize: "11px" }}>Disponibilidad</span>
                 </div>
-                <p>23 de mayo de 2005</p>
+                <p style={{ fontSize: "12px", lineHeight: "1.2" }}>Full-time · Remota/Híbrida</p>
               </div>
 
               <div className="narrative-block">
-                <div className="narrative-header">
-                  <GraduationCap size={14} strokeWidth={1.5} />
-                  <span>Formación</span>
+                <div className="narrative-header" style={{ marginBottom: "2px" }}>
+                  <Code size={13} strokeWidth={1.5} />
+                  <span style={{ fontSize: "11px" }}>Enfoque actual</span>
                 </div>
-                <p>Actualmente estoy cursando 4to Año en la UTN FRVM</p>
+                <p style={{ fontSize: "12px", lineHeight: "1.2" }}>Frontend React, Backend NestJS, despliegues AWS</p>
               </div>
 
               <div className="narrative-block">
-                <div className="narrative-header">
-                  <Trophy size={14} strokeWidth={1.5} />
-                  <span>Deportes</span>
+                <div className="narrative-header" style={{ marginBottom: "2px" }}>
+                  <GraduationCap size={13} strokeWidth={1.5} />
+                  <span style={{ fontSize: "11px" }}>Formación</span>
                 </div>
-                <p>Fútbol y Padel</p>
+                <p style={{ fontSize: "12px", lineHeight: "1.2" }}>4to año Ingeniería en Sistemas · UTN FRVM</p>
               </div>
             </div>
           </div>
@@ -107,6 +109,17 @@ export const Hero = () => {
             <p className="hero-description">
               Soy estudiante de <a href="https://www.frvm.utn.edu.ar/oferta-academica/sistemas" target="_blank" rel="noopener noreferrer" className="hero-highlight hero-link-highlight">Ingeniería en Sistemas</a> y un apasionado por materializar ideas en código. Creo firmemente que la mejor forma de aprender es haciendo; por eso, mi enfoque está en <span className="hero-highlight">construir herramientas</span> que no solo funcionen, sino que sean <span className="hero-highlight">útiles para las personas</span> en su día a día.
             </p>
+
+            <div className="hero-cta">
+              <a href="/cv_lautaro_novello.pdf" download className="hero-button hero-button-primary">
+                Descargar CV
+                <Download size={18} strokeWidth={2.5} />
+              </a>
+              <a href="#contacto" className="hero-button hero-button-secondary">
+                Contactame
+                <ArrowRight size={18} strokeWidth={2.5} />
+              </a>
+            </div>
           </div>
         </div>
 
