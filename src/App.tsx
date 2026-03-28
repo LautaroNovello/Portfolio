@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import TopNavBar from "./components/Navigation";
 import { Hero } from "./sections/Hero";
 import { ProjectsSection } from "./sections/Projects";
